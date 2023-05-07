@@ -1,0 +1,59 @@
+.c-heading {
+  margin-bottom: 1rem;
+  &.c-heading-large {
+    font-size: 2rem;
+  }
+  &.c-heading-medium {
+    font-size: 1.5rem;
+  }
+}
+
+.c-paragraph {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.file_input {
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.file_input--dragable {
+  padding: 32px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file_output {
+  padding: 8px;
+}
+
+.c-btn_cta {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  line-height: 1;
+  background-color: #f8f8f8;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+  appearance: none;
+  @media (prefers-color-scheme: dark) {
+    box-shadow: 0 3px 3px 0 rgba(255, 255, 255, 0.5);
+  }
+}
+
+.c-error_text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: red;
+  &:empty {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  & + .c-error_text {
+    margin-top: -1rem;
+  }
+}

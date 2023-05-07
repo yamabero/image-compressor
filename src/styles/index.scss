@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: -apple-system-subset, Helvetica, Hiragino Kaku Gothic ProN,
+    Hiragino Sans, Verdana, Roboto, Droid Sans, 游ゴシック, YuGothic, メイリオ,
+    Meiryo, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @media (prefers-color-scheme: dark) {
+    background-color: #000;
+    color: #fff;
+  }
+}
